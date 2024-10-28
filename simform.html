@@ -73,8 +73,8 @@
           align-items: center;
         }
         .ll{
-          margin: 20px;
-          width: 150px;
+          margin: 8 px;
+          width: 100px;
           height: 150px;
           margin: 10px;
           border-left: 1px solid lightblue;
@@ -98,7 +98,7 @@
           width: fit-content;
           margin: 20px;
           height: 450px;
-          width: 450px;
+          width: 400px;
         }
         .loka{
           display: flex;
@@ -119,7 +119,7 @@
           box-shadow: 0px 0px 10px 10px lightblue; 
           margin: 20px;
           height: 750px;
-          width: 700px; 
+          width: 500px; 
           display: inline-block;
           /* flex-direction: row;
           justify-content: space-around;
@@ -137,10 +137,31 @@
           justify-content: space-around;
           align-items: center;
         }
+        .ul{
+          list-style-type: none;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+        }
+        .ul a{
+          background: black;
+          color: white;
+          text-decoration: none;
+          text-align: center;
+          padding: 20px;
+        }
     </style>
     
 </head>
 <body>
+
+  <div>
+    <ul class="ul">
+      <li><a href="simform.html">SIMFORM</a></li>
+      <li><a href="index.html">INDEX</a></li>
+    </ul>
+  </div>
 <div class="row">
       <div class="koko col-sm">
         <ul class="nav nav-fill car">
@@ -275,9 +296,9 @@
         </tr>
       </table>
     </div>
-   <div  style="display: flex; flex-direction: row; justify-content: space-around; align-items: center;">
-        <img src="culture-crafted-bg-image@2x.png" alt="logo" style="width: 500px; height: 500px;">
-       <div>
+   <div  style="display: flex; flex-direction: row; justify-content: space-around; align-items: center;" class="row">
+        <img src="culture-crafted-bg-image@2x.png" alt="logo" style="width: 500px; height: 500px;" class="col-sm">
+       <div class="col-sm">
         <h1>
           Culture crafted and loved <br> by <span style="border-bottom: 2px solid orangered;">engineers</span>
         </h1>
@@ -340,56 +361,56 @@
       Our Perspective on Product Engineering
     </h1>
   <div class="loka row">
-    <div class="laka col-sm">
-        <img src="ctos.webp" alt="logo">
+    <div class="laka col-sm" style="width: 400px;">
+        <img src="ctos.webp" alt="logo" style="width: 300px;">
         <h4>CTO'S guild to the Total cost of <br> Ownership (TCO) of a digital product</h4>
         <p>Calculate the Total cost of Ownership(TCO) <br> like a pro with our complete guild for CT...</p>
     </div>
-    <div class="laka col-sm">
-      <img src="state.webp" alt="logo">
+    <div class="laka col-sm" style="width: 400px;">
+      <img src="state.webp" alt="logo" style="width: 300px;">
       <h4>State of generative AI in 2024 | <br>insightful survey findings</h4>
       <p>Explore expert insights on the adoption, use <br> cases, significant challenges, and practica...</p>
     </div>
-    <div class="laka col-sm">
-      <img src="2023.webp" alt="">
+    <div class="laka col-sm" style="width: 400px;">
+      <img src="2023.webp" alt="logo" style="width: 300px;">
       <h4>Simform ranks #2 worldwide Among <br> clutch's Top B2B Services providers of <br> 2023</h4>
       <p>Find out why Simfor, with glowing client <br> reviews, expectational work quality, a strong...</p>
     </div>
   </div>
   <div class="lako row">
-    <div class="lo col-sm">
-      <img src="ebook-building-battle-tested-software-architecture@2x.webp" alt="logo">
+    <div class="lo col-sm" style="width: 400px;">
+      <img src="ebook-building-battle-tested-software-architecture@2x.webp" alt="logo" style="width: 300px;">
       <h4>Building Battle-tested Software <br> Architecture: Lessons from Top <br> Tech Companies </h4>
       <p>A one-stop guide that provides <br> comprehensive and expert advice to <br> CTOs & tech decision-makers for <br> evolving software architecture at scale.</p>
       <button style="border: 2px solid orangered;">Download</button>
     </div>
-    <div class="lo col-sm">
-      <img src="ebook2.webp" alt="logo">
+    <div class="lo col-sm" style="width: 400px;">
+      <img src="ebook2.webp" alt="logo" style="width: 300px;">
       <h4>CTOs Handbook to Build an <br> Enterprise Kubernetes Strategy</h4>
       <p>Adoption of new technologies is <br> advantageous yet challenging. This <br> eBook is for each & tech-savvy <br> enterprise that wants to embrace</p>
       <button style="border: 2px solid orangered;">Download</button>
     </div>
   </div>
   <div class="lako row">
-    <div class="lo col-sm">
-      <img src="ebook2.webp" alt="logo">
+    <div class="lo col-sm" style="width: 400px;">
+      <img src="ebook2.webp" alt="logo" style="width: 300px;">
       <h4>CTO’s Handbook for Building <br> Scalable Frontend</h4>
       <p>great business idea that gets validated <br> in the market through MVP. After <br> that, the number of users starts to grow exponentially, <br> and many startups can’t</p>
       <button style="border: 2px solid orangered;">Download</button>
     </div>
-    <div class="lo col-sm">
-      <img src="ebook4.webp" alt="logo">
+    <div class="lo col-sm" style="width: 400px;">
+      <img src="ebook4.webp" alt="logo" style="width: 300px;">
       <h4>20+ Ways Microservices are Transforming <br> Industries: Use Cases from Capital <br> One, Facebook, Uber, and more</h4>
       <p>The business world has realized the <br> significance of adopting a microservices <br> architecture and how it <br> can transform the development processes.</p>
     </div>
   </div>
   
-  <div>
-    <img src="map.jfif" alt="" style=" width: 700px; height: 600px;">
-      <p>AREAS WE SERVE</p>
+  <div class="row">
+    <img src="map.jfif" alt="" style=" width: 400px; height: 600px;" class="col-sm">
+      <p class="col-sm">AREAS WE SERVE</p>
   </div> 
-  <div class="naco">
-    <div>
+  <div class="naco row">
+    <div class="col-sm">
       <h4>
         Orlando
       </h4>
@@ -399,7 +420,7 @@
       </p>
       <h4>CALL US NOW</h4>
     </div>
-    <div>
+    <div class="col-sm">
       <h4>
         Dubai
       </h4>
@@ -409,7 +430,7 @@
       </p>
       <h4>CALL US NOW</h4>
     </div>
-    <div>
+    <div class="col-sm">
       <h4>Canada</h4>
       <p>
         15-115 - Bentall II Vancouver BC, <br> V7X 1M8
@@ -418,7 +439,7 @@
         CALL US NOW
       </h4>
     </div>
-    <div>
+    <div class="col-sm">
       <h4>
         India
       </h4>
@@ -498,7 +519,10 @@
 </div>
 
    
-
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>NOTE!</strong> This is not an attempt to clone an existing website this is a student project
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
    
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
