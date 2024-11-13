@@ -81,8 +81,13 @@
           border-top: 1PX solid lightblue;
         }
         .koko{
-          position: fixed;
-          width: 1300px;
+          align-items: center;
+            justify-content: space-between;
+            background-color: #fff;
+            border-bottom: 1px solid #e0e0e0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
         .more:hover{
           color: black;
@@ -155,13 +160,6 @@
     
 </head>
 <body>
-
-  <div>
-    <ul class="ul">
-      <li><a href="simform.html">SIMFORM</a></li>
-      <li><a href="index.html">INDEX</a></li>
-    </ul>
-  </div>
 <div class="row">
       <div class="koko col-sm">
         <ul class="nav nav-fill car">
@@ -170,27 +168,13 @@
               SIMFORM
           </li>
           <li class="nav-item dropdown man">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color: rgb(120, 117, 117);">Services</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Separated link</a></li>
-              </ul>
-            </li>
+              <a class="nav-link" href="code.html" style="color: rgb(120, 117, 117);">CODE</a>
+          </li>
           <li class="nav-item dropdown man">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color: rgb(120, 117, 117);">Industries</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Separated link</a></li>
-            </ul>
+            <a class="nav-link" href="simform.html" style="color: rgb(120, 117, 117);">SIMFORM</a>
           </li>
           <li class="nav-item man">
-            <a class="nav-link" href="#" style="color: rgb(120, 117, 117);">Case Study</a>
+            <a class="nav-link" href="index.html" style="color: rgb(120, 117, 117);">INDEX</a>
           </li>
           <li class="nav-item dropdown man">
               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color: rgb(120, 117, 117);">Resources</a>
